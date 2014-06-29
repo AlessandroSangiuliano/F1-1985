@@ -1,0 +1,21 @@
+Ayrton Senna
+{
+//Driver Info
+  Nationality=Brazil
+  DateofBirth=21-03-1960
+  Starts=161
+  Poles=65
+  Wins=41
+  DriversChampionships=3
+
+//Driver Stats
+  Aggression=75.00
+  Reputation=60.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=98.00
+  Crash=2.00
+  Recovery=82.00
+  CompletedLaps=78.00
+  MinRacingSkill=90.00
+}

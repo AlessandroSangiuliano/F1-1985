@@ -1,0 +1,21 @@
+Niki Lauda
+{
+// Driver Info
+    Nationality=Austria
+    DateofBirth=22-02-1949
+    Starts=171
+    Poles=24
+    Wins=25
+    DriversChampionships=3
+
+// Driver stats
+    Aggression=95.60
+    Reputation=85.50
+    Courtesy=81.50
+    Composure=92.10
+    Speed=97.1
+    Crash=2.2
+    Recovery=5.00
+    CompletedLaps=88.8
+    MinRacingSkill=94.50
+}

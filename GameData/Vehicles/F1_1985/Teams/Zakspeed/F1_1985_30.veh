@@ -1,0 +1,47 @@
+//
+// The first section defines what maps to load for the new vehicle skinning
+// technology.  The first line defines a "prefix" to be used for all generic maps.
+// Currently, generic maps are used for the livery, wing, driver, driver arms,
+// driver helmet, and pit crew.  The second line will replace the default livery
+// with the new specified, for the track specified.  The format is as follows:
+//
+// DefaultLivery="PREFIX"       // PREFIX is the base texture map name, assumed to be BMP unless specified
+// PitCrewLivery="PREFIX"       // This is only needed if it differs from the default livery PREFIX
+// TrackLivery="TRACK, PREFIX"  // TRACK is the track name as defined in the event GDB
+// TrackLivery="TRACK, PREFIX"  // For example, "2001_Monza"
+// TrackLivery="TRACK, PREFIX"  // You can have an infinite # of these lines
+//
+
+DefaultLivery="F1_1985_30\F1_1985_30.dds"
+
+
+
+HDVehicle=F1_1985_zak.hdv
+Graphics=F1_1985_zak.gen
+Spinner=F1_1985_spinner_zak.gen
+GenString=                          // Used to generate GMT names in *.gen file
+Sounds=F1_1985_Zakspeed.sfx                  // Sounds=default.sfx
+Cameras=F1_1985_zak_cam.cam            // Defaults to default.cfg in UserData directory
+HeadPhysics=headphysics.ini         // Affects driver eyepoint only
+Cockpit=F1_1985_zak_cockpitinfo.ini
+Upgrades=F1_1985_upgrades.ini
+
+Number=30
+Team="Zakspeed 1985"
+PitGroup="Group17"
+Driver="Jonathan Palmer"
+Description="30: Jonathan Palmer"
+Engine="Zakspeed 1500/4"
+Manufacturer="Goodyear"
+Classes="F1_1985,Turbo"
+
+
+FullTeamName="Zakspeed"
+TeamHeadquarters="Germany"
+TeamStarts=53
+TeamPoles=0
+TeamWins=0
+TeamWorldChampionships=0
+
+Category="F1_1985, Zakspeed"
+

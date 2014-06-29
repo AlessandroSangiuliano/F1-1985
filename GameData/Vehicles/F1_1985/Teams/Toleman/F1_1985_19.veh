@@ -1,0 +1,47 @@
+//
+// The first section defines what maps to load for the new vehicle skinning
+// technology.  The first line defines a "prefix" to be used for all generic maps.
+// Currently, generic maps are used for the livery, wing, driver, driver arms,
+// driver helmet, and pit crew.  The second line will replace the default livery
+// with the new specified, for the track specified.  The format is as follows:
+//
+// DefaultLivery="PREFIX"       // PREFIX is the base texture map name, assumed to be BMP unless specified
+// PitCrewLivery="PREFIX"       // This is only needed if it differs from the default livery PREFIX
+// TrackLivery="TRACK, PREFIX"  // TRACK is the track name as defined in the event GDB
+// TrackLivery="TRACK, PREFIX"  // For example, "2001_Monza"
+// TrackLivery="TRACK, PREFIX"  // You can have an infinite # of these lines
+//
+
+DefaultLivery="F1_1985_19\F1_1985_19.dds"
+
+
+
+HDVehicle=F1_1985_tol.hdv
+Graphics=F1_1985_tol.gen
+Spinner=F1_1985_spinner_tol.gen
+GenString=                          // Used to generate GMT names in *.gen file
+Sounds=F1_1985_Hart.sfx                  // Sounds=default.sfx
+Cameras=F1_1985_tol_cam.cam            // Defaults to default.cfg in UserData directory
+HeadPhysics=headphysics.ini         // Affects driver eyepoint only
+Cockpit=F1_1985_tol_cockpitinfo.ini
+Upgrades=F1_1985_upgrades.ini
+
+Number=19
+Team="Toleman 1985"
+PitGroup="Group14"
+Driver="Teo Fabi"
+Description="19: Teo Fabi"
+Engine="Renault EF4B/15"
+Manufacturer="Pirelli"
+Classes="F1_1985,Turbo"
+
+
+FullTeamName="Toleman"
+TeamHeadquarters="England"
+TeamStarts=57
+TeamPoles=1
+TeamWins=0
+TeamWorldChampionships=0
+
+Category="F1_1985, Toleman"
+

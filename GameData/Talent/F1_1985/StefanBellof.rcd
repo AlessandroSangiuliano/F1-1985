@@ -1,0 +1,21 @@
+Stefan Bellof
+{
+// Driver Info
+    Nationality=Germany
+    DateofBirth=20-11-1957
+    Starts=20
+    Poles=0
+    Wins=0
+    DriversChampionships=0
+
+// Driver stats
+    Aggression=84.3
+    Reputation=85.1
+    Courtesy=78.5
+    Composure=85.0
+    Speed=70
+    Crash=16.7
+    Recovery=5.00
+    CompletedLaps=83.3
+    MinRacingSkill=65
+}

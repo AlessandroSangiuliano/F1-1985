@@ -1,0 +1,153 @@
+// Game/Season Info:
+Mod Name = F1 1985 MVCrF 1.02
+Track Filter = *
+Vehicle Filter = OR: F1_1985
+SafetyCar = Hammer_PC.veh
+
+Matchmaker = match.rfactor.net
+
+Max Opponents = 28   // maximum opponents in practice/quick race/grand prix/championship
+Min Championship Opponents = 3 // minimum opponents in championship only
+
+ConfigOverrides
+{
+ DriversDir=GAMEDATA\TALENT\F1_1985\
+
+}
+
+
+Season = F1 1985
+{
+  FullSeasonName = Formula 1 1985
+  Vehicle Filter = Turbo
+  Min Championship Opponents = 10
+
+  SceneOrder
+  {
+    Toban_Long
+    Toban_Short
+    Mills_Long
+    Mills_Short
+    Orchard_Lake_Oval
+    Orchard_Lake_RC
+    S_Heights_Long
+    Joesville_Speedway
+  }
+}
+
+
+
+
+DefaultScoring
+{
+  RacePitKPH = 320
+  NormalPitKPH = 320
+  Practice1Day = Friday
+  Practice1Start = 11:00
+  Practice1Duration = 60
+  Practice2Day = Friday
+  Practice2Start = 13:00
+  Practice2Duration = 60
+  Practice3Day = Saturday
+  Practice3Start = 9:00
+  Practice3Duration = 45
+  Practice4Day = Saturday
+  Practice4Start = 10:15
+  Practice4Duration = 45
+  QualifyDay = Saturday
+  QualifyStart = 13:00
+  QualifyDuration = 60
+  QualifyLaps = 12
+  WarmupDay = Sunday
+  WarmupStart = 9:30
+  WarmupDuration = 30
+  RaceDay = Sunday
+  RaceStart = 14:00
+  RaceLaps = 50
+  RaceTime = 120
+}
+
+// Money and experience accumulation (mostly multipliers for hard-coded values
+// which have various factors taken into account like number of competitors)
+StartingMoney = 100000        // always start with zero experience, but you need some money
+StartingVehicle= F1_1985_11.veh
+DriveAnyUnlocked = True     // whether player can drive any unlocked vehicle, or if player has to own it
+BaseCreditMult = 1.0         // base which is multiplied by all the other multipliers
+LapMoneyMult = 1.0           // laps completed (based roughly on expected lap times)
+LapExpMult = 1.0
+FineMoneyMult = 1.0          // fines
+FineExpMult = 0.0
+PoleSingleMoneyMult = 1.0    // pole positions in single player
+PoleSingleExpMult = 1.0
+PoleCareerMoneyMult = 1.0    // pole positions in career mode
+PoleCareerExpMult = 1.0
+PoleMultiMoneyMult = 1.0     // pole positions in multiplayer
+PoleMultiExpMult = 1.0
+WinSingleMoneyMult = 1.0     // wins in single player
+WinSingleExpMult = 1.0
+WinCareerMoneyMult = 1.0     // wins in career mode
+WinCareerExpMult = 1.0
+WinMultiMoneyMult = 1.0      // wins in multiplayer
+WinMultiExpMult = 1.0
+PointsSingleMoneyMult = 1.0  // points in single player
+PointsSingleExpMult = 1.0
+PointsCareerMoneyMult = 1.0  // points in career mode
+PointsCareerExpMult = 1.0
+PointsMultiMoneyMult = 1.0   // points in multiplayer
+PointsMultiExpMult = 1.0
+
+// Season scoring info
+SeasonScoringInfo
+{
+  FirstPlace = 9
+  SecondPlace = 6
+  ThirdPlace = 4
+  FourthPlace = 3
+  FifthPlace = 2
+  SixthPlace = 1
+  SeventhPlace = 0
+  EighthPlace = 0
+}
+
+SceneOrder // first one in the list will be the default track when loading up the first time
+{
+  Toban_Long
+  Toban_Short
+  Mills_Long
+  Mills_Short
+  Orchard_Lake_Oval
+  Orchard_Lake_RC
+  S_Heights_short
+  Joesville_Speedway
+}
+
+// Pitstop locations in order from front to back, with the number
+// of vehicles sharing each pit ... if the order needs to be
+// reversed on an individual track, set "ReversePitOrder=1" in
+// the track-specific GDB file.
+// These are now "pit group" names, not necessarily team names.
+// In the VEH file, the pit group defaults to the team name but
+// can be overridden by defining "PitGroup=<name>".
+PitGroupOrder
+{
+  // format is: PitGroup = <# of vehicles sharing pit>, <groupname>
+  PitGroup = 2, Group1
+  PitGroup = 2, Group2
+  PitGroup = 2, Group3
+  PitGroup = 2, Group4
+  PitGroup = 2, Group5
+  PitGroup = 2, Group6
+  PitGroup = 2, Group7
+  PitGroup = 2, Group8
+  PitGroup = 2, Group9
+  PitGroup = 2, Group10
+  PitGroup = 2, Group11
+  PitGroup = 2, Group12
+  PitGroup = 2, Group13
+  PitGroup = 2, Group14
+  PitGroup = 2, Group15
+  PitGroup = 2, Group16
+  PitGroup = 2, Group17
+}
+
+

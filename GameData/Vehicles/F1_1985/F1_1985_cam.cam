@@ -1,0 +1,309 @@
+// RTRAINER ONBOARD CAMS
+
+LocalCam=NOSECAM
+{
+  Fov=(62.500000, 62.500000)
+  Clear=TRUE
+  Color=(164, 218, 249)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  MipmapLODBias=(0.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(90.000000, 90.000000, 90.000000)
+  PositionOffset=(-0.000555, 0.085983, -2.214662)
+  OrientationOffset=(0.000000, 0.001583, 0.000000)
+  Radius=(0.000000)
+}
+LocalCam=COCKPIT
+{
+  Fov=(70.000000, 65.500000)
+  Clear=TRUE
+  Color=(164, 218, 249)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  MipmapLODBias=(0.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(999.000000, 999.000000, 999.000000)  // Low numbers cause jitter when you're spinning
+  PositionOffset=(0.000000, 0.100000, -0.25000)     //(Left-Right, Up-Down, Back,Forward) -0.001
+  OrientationOffset=(-0.030000, 0.000000, 0.000000)
+  Radius=(0.000000)
+}
+LocalCam=TVCOCKPIT
+{
+Fov=(100.389, 75.292) 
+  Clear=TRUE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.305000, 500.000000)
+  LODMultiplier=(1.000000)
+  MipmapLODBias=(0.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(35.000000, 35.000000, 25.000000)
+  PositionOffset=(-0.000000, 0.428553, 0.0)      //(Left-Right, Up-Down, Back,Forward) 
+  OrientationOffset=(-0.068662, -0.015162, 0.001304) 
+  Radius=(0.000000)
+}
+LocalCam=SWINGMAN
+{
+  Fov=(62.500000, 62.500000)
+  Clear=TRUE
+  Color=(164, 218, 249)
+  ClipPlanes=(0.500000, 500.000000)
+  LODMultiplier=(2.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(2.000000, 20.000000)
+  OrientationRate=(1.250000, 2.250000, 0.000000)
+  PositionOffset=(0.000000, 0.2500000, -0.006500)
+  OrientationOffset=(-0.20000, 0.000000, 0.000000)
+  Radius=(3.5)
+}
+LocalCam=ONBOARD001  // FRONT BUMPER CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.500000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(360.000000, 360.000000, 360.000000)
+  PositionOffset=(-0.000555, 0.085983, -2.014662)
+  OrientationOffset=(0.000000, 0.001583, 0.000000)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD002   // REAR BUMPER CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.025000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(360.000000, 360.000000, 360.000000)
+  PositionOffset=(0.050777, 0.047485, 2.300000)//2.267696
+  OrientationOffset=(0.000000, 3.159747, 0.000000)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD003   // WINGCAM - Views side of car
+{
+  Fov=(60.000000, 45.000000)
+  Clear=TRUE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(999.000000, 999.000000, 999.000000)
+  PositionOffset=(0.721468, 0.161811, 0.375838)
+  OrientationOffset=(-0.036167, 0.422838, 0.000897)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD004   // REAR-FACING CAMERA
+{
+  Fov=(60.000000, 45.000000)
+  Clear=TRUE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(999.000000, 999.000000, 999.000000)
+  PositionOffset=(-0.006447, 0.5, -0.4)                  //(Left-Right, Up-Down, Back,Forward)
+  OrientationOffset=(-0.099708, 3.166134, 0.001234)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD005	//  3/4 VIEW FRONT CLOSE CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.500000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(10.000000, 10.000000, 10.000000)
+  PositionOffset=(2.229728, 0.304628, -3.073157)
+  OrientationOffset=(-0.084756, 2.4, -0.001827)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD006	//  SIDE POD RIGHT CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(360.000000, 360.000000, 360.000000)
+  PositionOffset=(-0.581856, 0.326521, 1.496326)
+  OrientationOffset=(-0.112692, -0.241123, 0.008149)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD007	//  SIDE POD LEFT CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(360.000000, 360.000000, 360.000000)
+  PositionOffset=(0.615317, 0.334478, 1.408826)
+  OrientationOffset=(-0.112692, 0.361437, 0.008149)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD008	//  3/4 VIEW FRONT MID CAM 
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(10.000000, 10.000000, 10.000000)
+  PositionOffset=(-1.290834, 0.584482, -3.722996)
+  OrientationOffset=(-0.180322, 3.565088, 0.008149)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD009	//  SKEWED CHASE CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(360.000000, 360.000000, 360.000000)
+  PositionOffset=(1.275712, 0.577556, 5.085137)
+  OrientationOffset=(-0.123416, 6.465159, 0.008149)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD010	//  PROFILE, LEFT SIDE CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(360.000000, 360.000000, 360.000000)
+  PositionOffset=(5.244429, 0.537220, -0.150385)
+  OrientationOffset=(-0.123416, 1.654895, 0.008149)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD011	//  PROFILE, LEFT SIDE ELEVATED CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(360.000000, 360.000000, 360.000000)
+  PositionOffset=(4.044469, 2.337491, -0.087645)
+  OrientationOffset=(-0.567448, 1.654895, 0.008149)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD012	//  "OVER-THE-SHOULDER" CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(999.000000, 999.000000, 999.000000)
+  PositionOffset=(-0.354451, 0.675197, 2.728166)
+  OrientationOffset=(-0.198628, 6.241130, 0.008149)
+  Radius=(0.000000)
+}
+LocalCam=ONBOARD013	//  REVERSE COCKPIT VIEW CAM
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.200000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(360.000000, 360.000000, 360.000000)
+  PositionOffset=(-0.000000, 0.531876, -3.633777)
+  OrientationOffset=(-0.198628, 3.091950, 0.008149)
+  Radius=(0.000000)
+}
+

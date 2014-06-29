@@ -1,0 +1,433 @@
+
+		***(SOUNDS by Montesky©) Montecielo_27@hotmail.com ***
+		******************************************************
+
+
+*** ENGINE SOUNDS (INSIDE)
+***************************************************************************************
+
+VS_INSIDE_COAST_ENGINE_1=0.5,F1_1985\L4\F88L4_IDLE.wav
+VS_INSIDE_COAST_ENGINE_2=4.1,F1_1985\L4\F88L4_LOWOFF.wav
+VS_INSIDE_COAST_ENGINE_3=6.7,F1_1985\L4\F88L4_MEDOFF.wav
+VS_INSIDE_COAST_ENGINE_4=5.4,F1_1985\L4\F88L4_HIGHOFF.wav
+
+
+VS_INSIDE_POWER_ENGINE_1=0.5,F1_1985\L4\F88L4_IDLE.wav
+VS_INSIDE_POWER_ENGINE_2=9.0,F1_1985\L4\F88L4_LOW.wav
+VS_INSIDE_POWER_ENGINE_3=5.5,F1_1985\L4\F88L4_MED.wav
+VS_INSIDE_POWER_ENGINE_4=12.0,F1_1985\L4\F88L4_HIGH.wav
+
+
+
+VS_INSIDE_ENGINE_STARTING=F1_1985\FX\88_START.wav
+
+
+
+*** ENGINE SOUNDS (OUTSIDE)
+***************************************************************************************
+
+VS_OUTSIDE_COAST_ENGINE_1=4.1,F1_1985\L4\F88L4_IDLE_EX.wav
+VS_OUTSIDE_COAST_ENGINE_2=4.0,F1_1985\L4\F88L4_LOWOFF_EX.wav
+VS_OUTSIDE_COAST_ENGINE_3=4.6,F1_1985\L4\F88L4_MEDOFF_EX.wav
+VS_OUTSIDE_COAST_ENGINE_4=6.1,F1_1985\L4\F88L4_HIGHOFF_EX.wav
+
+
+VS_OUTSIDE_POWER_ENGINE_1=4.1,F1_1985\L4\F88L4_IDLE.wav
+VS_OUTSIDE_POWER_ENGINE_2=6.1,F1_1985\L4\F88L4_LOW_EX.wav
+VS_OUTSIDE_POWER_ENGINE_3=6.0,F1_1985\L4\F88L4_MED_EX.wav
+VS_OUTSIDE_POWER_ENGINE_4=6.1,F1_1985\L4\F88L4_HIGH_EX.wav
+
+
+VS_OUTSIDE_ENGINE_STARTING=F1_1985\FX\88START_EX.wav
+
+
+
+
+*** BACKFIRE & SHIFT SOUNDS (INSIDE)
+***************************************************************************************
+
+VS_INSIDE_SHIFT_UP_1=0.5,F1_1985\FX\GEAR_H_UP_1.wav
+VS_INSIDE_SHIFT_UP_2=0.5,F1_1985\FX\gear_change_up_3.wav
+VS_INSIDE_SHIFT_UP_3=0.5,F1_1985\FX\gear_change_up_3.wav
+VS_INSIDE_SHIFT_UP_4=0.5,F1_1985\FX\gear_change_up_2.wav         
+VS_INSIDE_SHIFT_DOWN_1=0.5,F1_1985\FX\gear_change_down_1.wav
+VS_INSIDE_SHIFT_DOWN_2=0.5,F1_1985\FX\gear_change_down_1.wav
+VS_INSIDE_SHIFT_DOWN_3=0.5,F1_1985\FX\gear_change_down_2.wav
+
+VS_INSIDE_BACKFIRE_1=F1_1985\FX\BF1.wav
+VS_INSIDE_BACKFIRE_2=F1_1985\FX\BF1.wav
+VS_INSIDE_BACKFIRE_3=F1_1985\FX\BF2.wav
+VS_INSIDE_SPLUTTER=F1_1985\FX\BF8.wav
+
+BackfireAmount=6.9
+SplutterAmount=4.5
+
+
+
+*** BACKFIRE & SHIFT SOUNDS (OUTSIDE)
+***************************************************************************************
+
+VS_OUTSIDE_SHIFT_UP_1=4.0,F1_1985\FX\GEAREX_UP_1.wav
+VS_OUTSIDE_SHIFT_UP_2=4.0,F1_1985\FX\GEAREX_UP_2.wav
+VS_OUTSIDE_SHIFT_UP_3=4.0,F1_1985\FX\GEAREX_UP_3.wav
+VS_OUTSIDE_SHIFT_UP_4=4.1,F1_1985\FX\GEAREX_UP_3.wav
+VS_OUTSIDE_SHIFT_DOWN_1=4.0,F1_1985\FX\GEAREX_DOWN_2.wav
+VS_OUTSIDE_SHIFT_DOWN_2=4.0,F1_1985\FX\GEAREX_DOWN_1.wav
+VS_OUTSIDE_SHIFT_DOWN_3=4.0,F1_1985\FX\GEAREX_DOWN_2.wav
+
+VS_OUTSIDE_BACKFIRE_1=1.1,F1_1985\FX\RUMBLEX_2.wav
+VS_OUTSIDE_BACKFIRE_2=1.1,F1_1985\FX\BF7.wav
+VS_OUTSIDE_BACKFIRE_3=1.1,F1_1985\FX\BF6.wav
+VS_OUTSIDE_Splutter=1.1,F1_1985\FX\HBADOWNSHIFT_3.wav
+
+BackfireAmount=6.9
+SplutterAmount=5.5
+
+
+
+*** ROAD SURFACE SOUNDS  (INSIDE)
+***************************************************************************************
+
+VS_INSIDE_ROADNOISE_DRY=F1_1985\FX\roadstones_in.wav
+VS_INSIDE_ROADNOISE_WET=F1_1985\FX\roadstones_in.wav
+VS_INSIDE_ROADNOISE_GRASS=F1_1985\FX\grassroll_in.wav
+VS_INSIDE_ROADNOISE_DIRT=F1_1985\FX\gravelroll_in.wav
+VS_INSIDE_ROADNOISE_GRAVEL=F1_1985\FX\gravelroll_in.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIP=Secondary\rumble_in.wav
+
+
+
+*** ROAD SURFACE SOUNDS  (OUTSIDE)
+***************************************************************************************
+
+VS_OUTSIDE_ROADNOISE_DRY=F1_1985\FX\roadroll_ex.wav
+VS_OUTSIDE_ROADNOISE_WET=F1_1985\FX\roadroll_ex.wav
+VS_OUTSIDE_ROADNOISE_GRASS=TMTires\grassroll_ex.wav
+VS_OUTSIDE_ROADNOISE_DIRT=TMTires\gravelroll_ex.wav
+VS_OUTSIDE_ROADNOISE_GRAVEL=TMTires\gravelroll_ex.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIP=Secondary\rumble_ex.wav
+
+
+
+*** SKID SOUNDS (INSIDE)
+***************************************************************************************
+
+VS_INSIDE_TIRE_SCRUB=2.0, F1_1985\FX\scrub1_in.wav
+VS_INSIDE_SKID_DRY=2.0, F1_1985\FX\skid1_dry_in.wav
+VS_INSIDE_SKID_WET=2.0, F1_1985\FX\skid2_dry_in.wav
+VS_INSIDE_SKID_GRASS=2.0, F1_1985\FX\grassskid_in.wav
+VS_INSIDE_SKID_DIRT=2.0, F1_1985\FX\gravelskid_in.wav
+VS_INSIDE_SKID_GRAVEL=2.0, F1_1985\FX\gravelskid_in.wav
+
+
+
+*** SKID SOUNDS (OUTSIDE)
+***************************************************************************************
+
+VS_OUTSIDE_TIRE_SCRUB=F1_1985\FX\SC_dry_ex.wav
+VS_OUTSIDE_SKID_DRY=F1_1985\FX\SK_dry_ex.wav
+VS_OUTSIDE_SKID_WET=F1_1985\FX\SK_wet_ex.wav
+VS_OUTSIDE_SKID_GRASS=TMTires\grassskid_ex.wav
+VS_OUTSIDE_SKID_DIRT=TMTires\gravelskid_ex.wav
+VS_OUTSIDE_SKID_GRAVEL=TMTires\gravelskid_ex.wav
+
+
+
+*** CONTACT SOUNDS  (INSIDE)
+***************************************************************************************
+
+VS_INSIDE_SCRAPING=secondary\scrape_barrier_in.wav
+VS_INSIDE_HIT_WALL_1=F1_1985\FX\HIT_WALL_IN_1.wav
+VS_INSIDE_HIT_WALL_2=F1_1985\FX\HIT_WALL_IN_2.wav
+VS_INSIDE_HIT_WALL_3=F1_1985\FX\HIT_WALL_IN_3.wav
+VS_INSIDE_HIT_WALL_4=F1_1985\FX\HIT_WALL_IN_4.wav
+VS_INSIDE_HIT_WALL_5=F1_1985\FX\HIT_WALL_IN_5.wav
+
+VS_INSIDE_HIT_OTHERCAR_1=F1_1985\FX\HIT_VEH_IN_1.wav
+VS_INSIDE_HIT_OTHERCAR_2=F1_1985\FX\HIT_VEH_IN_2.wav
+VS_INSIDE_HIT_OTHERCAR_3=F1_1985\FX\HIT_VEH_IN_3.wav
+VS_INSIDE_HIT_OTHERCAR_4=F1_1985\FX\HIT_VEH_IN_4.wav
+VS_INSIDE_HIT_OTHERCAR_5=F1_1985\FX\HIT_VEH_IN_5.wav
+
+VS_INSIDE_HIT_CONE=F1985\FX\conehit.wav
+
+
+
+*** CONTACT SOUNDS  (OUTSIDE)
+***************************************************************************************
+
+VS_OUTSIDE_SCRAPING=secondary\scrape_barrier_ex.wav
+
+VS_OUTSIDE_HIT_WALL_1=F1_1985\FX\HIT_WALL_OUT_1.wav
+VS_OUTSIDE_HIT_WALL_2=F1_1985\FX\HIT_WALL_OUT_2.wav
+VS_OUTSIDE_HIT_WALL_3=F1_1985\FX\HIT_WALL_OUT_3.wav
+VS_OUTSIDE_HIT_WALL_4=F1_1985\FX\HIT_WALL_OUT_4.wav
+VS_OUTSIDE_HIT_WALL_5=F1_1985\FX\HIT_WALL_OUT_1.wav
+VS_outSIDE_HIT_OTHERCAR_1=F1_1985\FX\HIT_VEH_OUT_1.wav
+VS_outSIDE_HIT_OTHERCAR_2=F1_1985\FX\HIT_VEH_OUT_2.wav
+VS_outSIDE_HIT_OTHERCAR_3=F1_1985\FX\HIT_VEH_OUT_3.wav
+VS_outSIDE_HIT_OTHERCAR_4=F1_1985\FX\HIT_VEH_OUT_4.wav
+VS_outSIDE_HIT_OTHERCAR_5=F1_1985\FX\HIT_VEH_OUT_5.wav
+
+VS_OUTSIDE_HIT_CONE=F1985\FX\conehit.wav
+
+
+
+
+*** AMBIENT SOUNDS (INSIDE)
+***************************************************************************************
+
+VS_INSIDE_LAUNCH_CONTROL_TOGGLE=F1_1985\FX\launch.wav
+VS_INSIDE_WIND_NOISE=F1_1985\FX\WINDroll_in.wav
+VS_INSIDE_ON_FIRE=secondary\fire_in.wav
+//VS_INSIDE_HORN=secondary\horn.wav
+
+
+
+
+*** AMBIENT SOUNDS (OUTSIDE)
+***************************************************************************************
+
+VS_OUTSIDE_LAUNCH_CONTROL_TOGGLE=F1_1985\FX\launch.wav
+VS_OUTSIDE_WIND_NOISE=secondary\roadstones_ex.wav
+VS_OUTSIDE_ON_FIRE=secondary\fire_in.wav
+//VS_OUTSIDE_HORN=secondary\horn.wav
+VS_OUTSIDE_TRACTION_CONTROL=secondary\willimiter.wav
+VS_INSIDE_SEAT=Secondary\seat.wav 
+VS_INSIDE_MIRROR=Secondary\mirror.wav
+
+
+********************************************************************************************************************************
+
+reverb_time= 25
+reverb_predelay= 90 
+reverb_damping= 1400
+
+// ATTENUTATION
+EngineRange=31.0
+EngineShape=0.870
+EngineAmbient=2.00
+
+ShiftRange=50.0
+ShiftShape=0.810
+ShiftAmbient=1.10
+
+OtherRange=80.0
+OtherShape=1.0
+OtherAmbient=1.10
+
+
+playerEngineVolume=10.0
+non-playerEngineVolume= 1.5
+
+
+*** ENGINE VOLUME MIX
+playerEngineVolumeMinimum=2.5
+playerEngineVolumeThrottleFraction=5.7
+playerEngineVolumeRevFraction=5.18
+
+non-playerEngineVolumeMinimum=0.2
+non-playerEngineVolumeThrottleFraction=2.7
+non-playerEngineVolumeRevFraction=1.18
+
+
+// ENGINE THROTTLE-POSITION MIX
+EngineLoadBlendInside=(0.1,0.9)   // power sound starts to blend in at 30% throttle, coast sound blends out at 70%
+EngineLoadBlendOutside=(0.1,0.9)  // power sound starts to blend in at 30% throttle, coast sound blends out at 70%
+
+
+// ENGINE REV-SAMPLE MIX
+EngineRPMCoastInside=0
+{
+  MinimumRPM=1.00         // above zero, but low enough to hear engine stall
+  MaximumRPM=4012.00     // must overlap properly
+  NaturalRPM=2801.96   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastInside=1
+{
+  MinimumRPM=2102.00     // must overlap properly
+  MaximumRPM=6300.00     // must overlap properly
+  NaturalRPM=4000.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastInside=2
+{
+  MinimumRPM=4238.00     // must overlap properly
+  MaximumRPM=9576.00     // must overlap properly
+  NaturalRPM=6500.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastInside=3
+{
+  MinimumRPM=7590.00     // must overlap properly
+  MaximumRPM=13100.00     // must overlap properly
+  NaturalRPM=9500.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastInside=4
+{
+  MinimumRPM=13080.00     // must overlap properly
+  MaximumRPM=16500.00     // must overlap properly
+  NaturalRPM=13500.00   // engine RPM at which sample was recorded
+}
+
+// power inside
+EngineRPMPowerInside=0
+{
+  MinimumRPM=1.00         // above zero, but low enough to hear engine stall
+  MaximumRPM=4170.00     // must overlap properly
+  NaturalRPM=2801.96   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerInside=1
+{
+  MinimumRPM=2102.00     // must overlap properly
+  MaximumRPM=6300.00     // must overlap properly
+  NaturalRPM=4000.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerInside=2
+{
+  MinimumRPM=4238.00     // must overlap properly
+  MaximumRPM=9576.00     // must overlap properly
+  NaturalRPM=6500.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerInside=3
+{
+  MinimumRPM=7590.00     // must overlap properly
+  MaximumRPM=13100.00     // must overlap properly
+  NaturalRPM=9500.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerInside=4
+{
+  MinimumRPM=13600.00     // must overlap properly
+  MaximumRPM=16500.00     // must overlap properly
+  NaturalRPM=13500.00// engine RPM at which sample was recorded
+}
+
+// Coast outside
+
+EngineRPMCoastOutside=0
+{
+  MinimumRPM=1.00         // above zero, but low enough to hear engine stall
+  MaximumRPM=4012.00     // must overlap properly
+  NaturalRPM=2801.96   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastOutside=1
+{
+  MinimumRPM=2102.00     // must overlap properly
+  MaximumRPM=6300.00     // must overlap properly
+  NaturalRPM=4000.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastOutside=2
+{
+  MinimumRPM=4238.00     // must overlap properly
+  MaximumRPM=9576.00     // must overlap properly
+  NaturalRPM=6500.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastOutside=3
+{
+  MinimumRPM=7590.00     // must overlap properly
+  MaximumRPM=13100.00     // must overlap properly
+  NaturalRPM=9500.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastOutside=4
+{
+  MinimumRPM=13080.00     // must overlap properly
+  MaximumRPM=16500.00     // must overlap properly
+  NaturalRPM=13500.00   // engine RPM at which sample was recorded
+}
+
+// power inside
+EngineRPMPowerOutside=0
+{
+  MinimumRPM=1.00         // above zero, but low enough to hear engine stall
+  MaximumRPM=4170.00     // must overlap properly
+  NaturalRPM=2801.96   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerOutside=1
+{
+  MinimumRPM=2102.00     // must overlap properly
+  MaximumRPM=6300.00     // must overlap properly
+  NaturalRPM=4000.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerOutside=2
+{
+  MinimumRPM=4238.00     // must overlap properly
+  MaximumRPM=9576.00     // must overlap properly
+  NaturalRPM=6500.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerOutside=3
+{
+  MinimumRPM=7590.00     // must overlap properly
+  MaximumRPM=13100.00     // must overlap properly
+  NaturalRPM=9500.00   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerOutside=4
+{
+  MinimumRPM=13600.00     // must overlap properly
+  MaximumRPM=16500.00     // must overlap properly
+  NaturalRPM=13500.00// engine RPM at which sample was recorded
+}
+
+// TRANNY-SAMPLE MIX
+
+VS_INSIDE_COAST_TRANNY_1=F1_1985\FX\X_MAX_2_POW.wav
+VS_INSIDE_COAST_TRANNY_2=F1_1985\FX\X_MAX_2_POW.wav
+VS_INSIDE_POWER_TRANNY_1=F1_1985\FX\X_MAX_2_POW.wav
+VS_INSIDE_POWER_TRANNY_2=F1_1985\FX\X_MAX_2_POW.wav
+
+VS_OUTSIDE_COAST_TRANNY_1=F1_1985\FX\X_MAX_1_POW.wav
+VS_OUTSIDE_COAST_TRANNY_2=F1_1985\FX\X_MAX_2_POW.wav
+VS_OUTSIDE_POWER_TRANNY_1=F1_1985\FX\X_MAX_1_POW.wav
+VS_OUTSIDE_POWER_TRANNY_2=F1_1985\FX\X_MAX_1_POW.wav
+
+TrannyInitialRampRPM=9000.0 // ramp volume up to this driveshaft RPM because low pitches sound bad
+
+TrannyCoastBlendRPMInside=(4500.0, 8000.0) // blend range using driveshaft RPM
+TrannyCoast1RPMTorqueInside=(4000, 200.0)   // natural RPM at which sample was recorded, transmission torque (in Nm) for maximum volume
+TrannyCoast2RPMTorqueInside=(4000, 100.0)
+
+TrannyPowerBlendRPMInside=(4500.0, 8000.0)
+TrannyPower1RPMTorqueInside=(4000, 100.0)
+TrannyPower2RPMTorqueInside=(4000, 80.0)
+
+//TrannyCoastBlendRPMOutside=(4000.0, 10000.0) // blend range using driveshaft RPM
+//TrannyCoast1RPMTorqueOutside=(3373, 75.0)    // natural RPM at which sample was recorded, transmission torque (in Nm) for maximum volume
+//TrannyCoast2RPMTorqueOutside=(4100, 75.0)
+
+//TrannyPowerBlendRPMOutside=(4000.0, 10000.0)
+//TrannyPower1RPMTorqueOutside=(3373, 150.0)
+//TrannyPower2RPMTorqueOutside=(7785, 150.0)
+
+// BRAKE HISS 
+ 
+VS_INSIDE_BRAKES_LOW=F1_1985\FX\88brakes_low_in.wav    // low-speed
+VS_INSIDE_BRAKES_HIGH=F1_1985\FX\88brakes_high_in.wav  // high-speed 
+VS_OUTSIDE_BRAKES_LOW=2.1,F1_1985\FX\88brakes_low_ex.wav   // low-speed 
+VS_OUTSIDE_BRAKES_HIGH=2.1,F1_1985\FX\88brakes_high_ex.wav // high-speed
+ 
+// Note: all speeds are in meters/sec: 50.0 m/s = 112 mph = 180 kph 
+//
+// Lower BrakePressure numbers will cause the volume to ramp up faster with 
+// less applied pressure, and will be more steady at higher pressures.
+// Higher BrakePressure numbers will tend to make the volume more dependent
+// on applied pressure.
+//
+// Temperature effects on brake hiss volume are not implemented yet. 
+ 
+BrakeRampSpeed=120.0            // volume ramps up to this speed
+BrakeBlendSpeeds=(3.0, 95.0)  // blends between low- and high-speed brake hiss
+BrakeFadeSpeeds=(45.0, 60.0)  // fades out high-speed brake hiss between these speeds
+BrakePressure=0.10            // defines how brake pressure affects brake hiss volume

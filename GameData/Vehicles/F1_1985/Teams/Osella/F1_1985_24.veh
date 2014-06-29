@@ -1,0 +1,47 @@
+//
+// The first section defines what maps to load for the new vehicle skinning
+// technology.  The first line defines a "prefix" to be used for all generic maps.
+// Currently, generic maps are used for the livery, wing, driver, driver arms,
+// driver helmet, and pit crew.  The second line will replace the default livery
+// with the new specified, for the track specified.  The format is as follows:
+//
+// DefaultLivery="PREFIX"       // PREFIX is the base texture map name, assumed to be BMP unless specified
+// PitCrewLivery="PREFIX"       // This is only needed if it differs from the default livery PREFIX
+// TrackLivery="TRACK, PREFIX"  // TRACK is the track name as defined in the event GDB
+// TrackLivery="TRACK, PREFIX"  // For example, "2001_Monza"
+// TrackLivery="TRACK, PREFIX"  // You can have an infinite # of these lines
+//
+
+DefaultLivery="F1_1985_24\F1_1985_24.dds"
+
+
+
+HDVehicle=F1_1985_o.hdv
+Graphics=F1_1985_o.gen
+Spinner=F1_1985_spinner_o.gen
+GenString=                          // Used to generate GMT names in *.gen file
+Sounds=F1_1985_Alfa.sfx                  // Sounds=default.sfx
+Cameras=F1_1985_o_cam.cam            // Defaults to default.cfg in UserData directory
+HeadPhysics=headphysics.ini         // Affects driver eyepoint only
+Cockpit=F1_1985_o_cockpitinfo.ini
+Upgrades=F1_1985_upgrades.ini
+
+Number=24
+Team="Osella 1985"
+PitGroup="Group13"
+Driver="Huub Rothengatter"
+Description="24: Huub Rothengatter"
+Engine="Alfa Romeo 890T 1.5 V8T"
+Manufacturer="Pirelli"
+Classes="F1_1985,Turbo"
+
+
+FullTeamName="Osella"
+TeamHeadquarters="Italy"
+TeamStarts=132
+TeamPoles=0
+TeamWins=0
+TeamWorldChampionships=0
+
+Category="F1_1985, Osella"
+

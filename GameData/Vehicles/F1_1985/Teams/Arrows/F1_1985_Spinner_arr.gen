@@ -1,0 +1,149 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// This file specifices how to generate the vehicle graphics for the options car spinner only.
+// It is pointed to by one or more *.veh files.
+//
+// All information except tokens are copied directly.
+// Tokens have the format "<value>" where value is one of the following:
+//   ID        - this is replaced by the proper slot identification (000, 001, etc.), or
+//   1,2,3,etc - this is replaced by the first 1,2,3 characters of the
+//               vehicle filename
+//   VEHDIR    - this is replaced with the proper vehicles directory (e.g. E:\Data\season01\vehicles)
+//   TEAMDIR   - this is replaced with the proper team directory (e.g. season01\vehicles\williams)
+//   SPIN      - for the vehicle spinner in the options only
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//----------------------------------------
+
+SearchPath=<VEHDIR>
+SearchPath=<TEAMDIR>
+MASFile=F1_1985_arr.mas
+MASFile=F1_1985\F1_1985_common.MAS
+MASFile=F1_1985\F1_1985_tires.MAS
+MASFile=cmaps.mas
+ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+//----------------------------------------
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=a8_carbody.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(Dynamic, Solid, 512, 512) Reflect=True
+
+  Actor=VEHICLE
+  
+<STARTUPGRADES>
+
+
+
+<STOPUPGRADES>
+
+
+    Instance=Fwing     
+  {
+   Moveable=True
+  MeshFile=a8_frontwing.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(Dynamic, Solid, 512, 512) Reflect=True
+  } 
+
+ 
+
+  Instance=rwing      
+  {
+   Moveable=True
+  MeshFile=a8_Rwing.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(True, Solid, 256, 256) Reflect=True
+  } 
+  
+  Instance=rf_tire      
+  {
+    Moveable=True
+    MeshFile=a8_RFTIRE_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+    Instance=lf_tire      
+  {
+    Moveable=True
+    MeshFile=a8_LFTIRE_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+ 
+    Instance=lr_tire      
+  {
+    Moveable=True
+    MeshFile=a8_LRTIRE_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+
+  Instance=rr_tire      
+  {
+    Moveable=True
+    MeshFile=a8_rrtire_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+ Instance=fl_susp      
+ {
+    Moveable=True
+    MeshFile=a8_flsusp.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }  
+Instance=fr_susp      
+  {
+    Moveable=True
+    MeshFile=a8_frsusp.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+Instance=rr_susp      
+  {
+    Moveable=True
+    MeshFile=a8_rrsusp.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+Instance=rl_susp      
+  {
+    Moveable=True
+    MeshFile=a8_rlsusp.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+
+ Instance=lf_brake     
+  {
+    Moveable=True
+    MeshFile=a8_lfbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+Instance=rf_brake      
+  {
+    Moveable=True
+    MeshFile=a8_rfbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+Instance=lr_brake      
+  {
+    Moveable=True
+    MeshFile=a8_lrbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+Instance=rr_brake      
+  {
+    Moveable=True
+    MeshFile=a8_rrbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+    Instance=wheel      
+  {
+    Moveable=True
+    MeshFile=a8_strwheel.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }
+
+
+Instance=engine      
+  {
+    Moveable=True
+    MeshFile=a8_engine.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }
+Instance=driver      
+  {
+    Moveable=True
+    MeshFile=a8_driver.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }
+Instance=helmet      
+  {
+    Moveable=True
+    MeshFile=<12345>_helmet_max.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }
+
+}
+

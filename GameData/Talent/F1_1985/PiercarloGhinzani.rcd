@@ -1,0 +1,21 @@
+Piercarlo Ghinzani
+{
+//Driver Info
+  Nationality=Italy
+  DateofBirth=16-01-1952
+  Starts=76
+  Poles=0
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=65.00
+  Reputation=50.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=57.00
+  Crash=2.00
+  Recovery=82.55
+  CompletedLaps=82.00
+  MinRacingSkill=57
+}

@@ -1,0 +1,21 @@
+Mauro Baldi
+{
+//Driver Info
+  Nationality=Italy
+  DateofBirth=31-01-1954
+  Starts=36
+  Poles=0
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=70.00
+  Reputation=55.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=30.00
+  Crash=18.00
+  Recovery=82.55
+  CompletedLaps=76.00
+  MinRacingSkill=30
+}

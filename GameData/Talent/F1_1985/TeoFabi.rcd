@@ -1,0 +1,21 @@
+Teo Fabi
+{
+//Driver Info
+  Nationality=Italy
+  DateofBirth=09-03-1955
+  Starts=64
+  Poles=3
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=75.00
+  Reputation=53.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=84.00
+  Crash=22.00
+  Recovery=82.55
+  CompletedLaps=96.00
+  MinRacingSkill=74
+}

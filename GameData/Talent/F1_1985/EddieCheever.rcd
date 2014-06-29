@@ -1,0 +1,21 @@
+Eddie Cheever
+{
+//Driver Info
+  Nationality=USA
+  DateofBirth=10-01-1958
+  Starts=132
+  Poles=0
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=65.00
+  Reputation=54.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=68.00
+  Crash=2.00
+  Recovery=82.55
+  CompletedLaps=86.00
+  MinRacingSkill=88.71
+}

@@ -1,0 +1,13 @@
+F1 1985 1.03 Slex Madness Version (Thanks to Valiante and Markus for copyright grant)
+
+F1 1985 1.02 Sound Patch
+all sounds with big thanks to the master from Montesky
+
+F1 1985 1.01 Season Patch
+there was a problem with 4 tyrrell's in the season, thx to "HP" for advice.
+
+copy the files in the gamefolder
+
+Valiante and Markus
+
+www.speedlord.de

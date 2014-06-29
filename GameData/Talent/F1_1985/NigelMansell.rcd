@@ -1,0 +1,21 @@
+Nigel Mansell
+{
+//Driver Info
+  Nationality=England
+  DateofBirth=08-08-1953
+  Starts=187
+  Poles=32
+  Wins=31
+  DriversChampionships=1
+
+//Driver Stats
+  Aggression=85.00
+  Reputation=80.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=90.00
+  Crash=2.00
+  Recovery=82.55
+  CompletedLaps=96.00
+  MinRacingSkill=88
+}

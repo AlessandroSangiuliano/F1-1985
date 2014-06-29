@@ -1,0 +1,21 @@
+Jonathan Palmer
+{
+//Driver Info
+  Nationality=England
+  DateofBirth=07-11-1956
+  Starts=82
+  Poles=0
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=60.00
+  Reputation=50.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=55.00
+  Crash=2.00
+  Recovery=82.55
+  CompletedLaps=85.00
+  MinRacingSkill=60
+}

@@ -1,0 +1,21 @@
+Jacques Laffite
+{
+//Driver Info
+  Nationality=France
+  DateofBirth=21-11-1943
+  Starts=176
+  Poles=7
+  Wins=6
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=65.00
+  Reputation=60.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=75.00
+  Crash=2.00
+  Recovery=82.55
+  CompletedLaps=97.00
+  MinRacingSkill=75
+}

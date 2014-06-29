@@ -1,0 +1,21 @@
+Alain Prost
+{
+//Driver Info
+  Nationality=France
+  DateofBirth=24-02-1955
+  Starts=199
+  Poles=33
+  Wins=51
+  DriversChampionships=4
+
+//Driver Stats
+  Aggression=85.00
+  Reputation=80.00
+  Courtesy=50.00
+  Composure=86.00
+  Speed=94.00
+  Crash=2.00
+  Recovery=82.00
+  CompletedLaps=96.00
+  MinRacingSkill=88.00
+}

@@ -1,0 +1,21 @@
+Patrick Tambay
+{
+//Driver Info
+  Nationality=Francia
+  DateofBirth=25-06-1949
+  Starts=114
+  Poles=5
+  Wins=2
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=87.00
+  Reputation=75.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=75.00
+  Crash=2.00
+  Recovery=82.55
+  CompletedLaps=97.00
+  MinRacingSkill=75
+}

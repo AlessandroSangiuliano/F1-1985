@@ -1,0 +1,21 @@
+Stefan Johansson
+{
+//Driver Info
+  Nationality=Sweden
+  DateofBirth=08-09-1956
+  Starts=79
+  Poles=0
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=55.00
+  Reputation=50.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=80.00
+  Crash=11.00
+  Recovery=82.00
+  CompletedLaps=77.00
+  MinRacingSkill=82
+}

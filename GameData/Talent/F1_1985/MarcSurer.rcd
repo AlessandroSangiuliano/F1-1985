@@ -1,0 +1,21 @@
+Marc Surer
+{
+//Driver Info
+  Nationality=Canada
+  DateofBirth=18-09-1951
+  Starts=82
+  Poles=0
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=75.00
+  Reputation=60.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=76.00
+  Crash=12.00
+  Recovery=82.00
+  CompletedLaps=78.00
+  MinRacingSkill=78
+}

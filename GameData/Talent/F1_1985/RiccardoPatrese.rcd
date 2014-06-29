@@ -1,0 +1,21 @@
+Riccardo Patrese
+{
+//Driver Info
+  Nationality=Italy
+  DateofBirth=17-04-1954
+  Starts=256
+  Poles=8
+  Wins=6
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=75.00
+  Reputation=60.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=65.00
+  Crash=12.00
+  Recovery=82.00
+  CompletedLaps=78.00
+  MinRacingSkill=65
+}

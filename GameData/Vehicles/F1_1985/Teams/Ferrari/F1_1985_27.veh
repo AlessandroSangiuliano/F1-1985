@@ -1,0 +1,47 @@
+//
+// The first section defines what maps to load for the new vehicle skinning
+// technology.  The first line defines a "prefix" to be used for all generic maps.
+// Currently, generic maps are used for the livery, wing, driver, driver arms,
+// driver helmet, and pit crew.  The second line will replace the default livery
+// with the new specified, for the track specified.  The format is as follows:
+//
+// DefaultLivery="PREFIX"       // PREFIX is the base texture map name, assumed to be BMP unless specified
+// PitCrewLivery="PREFIX"       // This is only needed if it differs from the default livery PREFIX
+// TrackLivery="TRACK, PREFIX"  // TRACK is the track name as defined in the event GDB
+// TrackLivery="TRACK, PREFIX"  // For example, "2001_Monza"
+// TrackLivery="TRACK, PREFIX"  // You can have an infinite # of these lines
+//
+
+DefaultLivery="F1_1985_27\F1_1985_27.dds"
+
+
+
+HDVehicle=F1_1985_f.hdv
+Graphics=F1_1985_f.gen
+Spinner=F1_1985_spinner_f.gen
+GenString=F156_27                         // Used to generate GMT names in *.gen file
+Sounds=F1_1985_Ferrari.sfx                  // Sounds=default.sfx
+Cameras=F1_1985_f_cam.cam            // Defaults to default.cfg in UserData directory
+HeadPhysics=F1_1985_HeadPhysics.ini          // Affects driver eyepoint only
+Cockpit=F1_1985_f_cockpitinfo.ini
+Upgrades=F1_1985_upgrades.ini
+
+Number=27
+Team="Ferrari 1985"
+PitGroup="Group2"
+Driver="Michele Alboreto"
+Description="27: Michele Alboreto"
+Engine="Ferrari 031 1.5 V6T"
+Manufacturer="Good Year"
+Classes="F1_1985,Turbo"
+
+
+FullTeamName="Ferrari"
+TeamHeadquarters="Italy"
+TeamStarts=793
+TeamPoles=203
+TeamWins=210
+TeamWorldChampionships=16
+
+Category="F1_1985, Ferrari"
+

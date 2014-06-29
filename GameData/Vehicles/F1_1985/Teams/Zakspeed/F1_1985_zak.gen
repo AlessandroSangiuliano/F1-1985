@@ -1,0 +1,207 @@
+
+// This file specifices how to generate the vehicle graphics.
+// It is pointed to by one or more *.veh files.
+//
+// All information except tokens are copied directly.
+// Tokens have the format "<value>" where value is one of the following:
+//   ID        - this is replaced by the proper slot identification (000, 001, etc.), or
+//   1,2,3,etc - this is replaced by the first 1,2,3 characters of the
+//               vehicle filename
+//   VEHDIR    - this is replaced with the proper vehicles directory (e.g. E:\Data\season01\vehicles)
+//   TEAMDIR   - this is replaced with the proper team directory (e.g. season01\vehicles\williams)
+//   SPIN      - for the vehicle spinner in the options only
+//   NOTSPIN   - for everything EXCEPT the vehicle spinner
+//   LOW       - low detail only
+//   MED       - medium detail only
+//   HIGH      - high detail only
+//   MAX       - maximum detail only
+//   DASHLOW   - low detail dash
+//   DASHHIGH  - high detail dash
+//
+// Example:
+//   For slot #2 using the vehicle file "nicecar.veh", the line
+//   "Instance=SLOT<ID>   MeshFile=<123>gva.gmt" would be replaced with
+//   "Instance=SLOT002   MeshFile=nicgva.gmt"
+
+
+//----------------------------------------
+
+SearchPath=<VEHDIR>
+MASFile=F1_1985\F1_1985_common.MAS
+MASFile=F1_1985\F1_1985_tires.MAS
+MASFile=F1_1985\Teams\Zakspeed\F1_1985_zak.mas
+MASFile=cmaps.mas
+
+//----------------------------------------
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+ MeshFile=z841carbody.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0) ShadowReceiver=True
+  MeshFile=z841carbodyb.gmt CollTarget=False HATTarget=False LODIn=(100.0) LODOut=(200.0) ShadowReceiver=True
+ MeshFile=z841carbodyc.gmt CollTarget=False HATTarget=False LODIn=(200.0) LODOut=(300.0) ShadowReceiver=True
+
+
+MeshFile=F1_1985_shad.gmt CollTarget=False HATTarget=False ShadowObject=(True, Solid, 256, 256, F1_1985_UNDERSHADOW.DDS) LODIn=(0.0) LODOut=(200.0)
+MeshFile=F1_1985_coll.gmt Render=False CollTarget=True HATTarget=False LODIn=(0.0) LODOut=(200.0)
+
+  Actor=VEHICLE
+
+Instance=COCKPIT
+{
+  Moveable=True
+  MeshFile=z841cockpit.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+  MeshFile=z841_DASH_TACHO.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+  MeshFile=z841_LEDLF.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+  MeshFile=z841_LEDSL.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+ 
+}
+
+////////////////////////////////////Steering Wheel/////////////////
+  Instance=wheel
+  {
+    Moveable=True
+    MeshFile=z841_strwheel.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(20.0) ShadowReceiver=True
+  }
+//////////////////////////////////////////////////////////////////
+
+////////////////////////////////////Front wing/////////////////
+ Instance=Fwing
+  {
+    Moveable=True
+    MeshFile=z841Fwing.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+  }
+////////////////////////////////////Rear wing/////////////////
+  Instance=Rwing
+  {
+    Moveable=True
+    MeshFile=z841rwing.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+//////////////////////////////////// Suspension/////////////////
+  Instance=DEBRIS5
+  {
+    Moveable=True
+    MeshFile=z841_flsusp.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+    
+  }
+Instance=lfSpindle
+  {
+    Moveable=True
+    MeshFile=z841_lfbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowReceiver=True  //this is actually the caliper
+  
+  }
+  Instance=DEBRIS6
+  {
+    Moveable=True
+    MeshFile=z841_Rlsusp.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+    
+  }
+Instance=lrSpindle
+  {
+    Moveable=True
+    MeshFile=z841_lrbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowReceiver=True  //this is actually the caliper
+  
+  }
+  Instance=DEBRIS7
+  {
+    Moveable=True
+    MeshFile=z841_fRsusp.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+    
+  }
+Instance=rfSpindle
+  {
+    Moveable=True
+    MeshFile=z841_rfbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowReceiver=True  //this is actually the caliper
+  
+  }
+  Instance=DEBRIS8
+  {
+    Moveable=True
+    MeshFile=z841_RRsusp.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+    
+  }
+Instance=rrSpindle
+  {
+    Moveable=True
+    MeshFile=z841_rrbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowReceiver=True  //this is actually the caliper
+  
+  }
+
+
+//////////////////////////////////// EXHAUST BACKFIRES///////////////////////////////////////////////////////////////////////
+
+  Instance=BACKFIRE
+  {
+    Moveable=True
+ MeshFile=z841_backfire.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.0) ShadowReceiver=False
+  }
+
+
+//////////////////////////////////// DRIVER ////////////////////////////////////////////////////////////////////////////////
+  Instance=Driver
+  {
+    Moveable=True
+    MeshFile=z841_driver.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+  }
+  Instance=Helmet
+  {
+    Moveable=True
+    MeshFile=z841_helmet_max.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(10.0) ShadowReceiver=True
+    MeshFile=z841_helmet.gmt CollTarget=False HATTarget=False LODIn=(10.0) LODOut=(350.0) ShadowReceiver=True
+  }
+/////////////////////////////////////////////////TIRES////////////////////////////////////////////////////////
+/////////////////////////////////Left Front Tire and Spindle//////////////////////////////////////////////////
+  Instance=LFTIRE
+  {
+    Moveable=True
+    MeshFile=z841_lftire_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(5.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_lftire_g_b.gmt CollTarget=False HATTarget=False LODIn=(5.00) LODOut=(30.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_lftire_g_c.gmt CollTarget=False HATTarget=False LODIn=(30.00) LODOut=(300.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_lf_dg.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(300.0) ShadowReceiver=False
+
+  }
+ 
+/////////////////////////////////Right Front Tire and Spindle//////////////////////////////////////////////////
+ Instance=rFTIRE
+  {
+    Moveable=True
+    MeshFile=z841_rftire_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(5.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_rftire_g_b.gmt CollTarget=False HATTarget=False LODIn=(5.00) LODOut=(30.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_rftire_g_c.gmt CollTarget=False HATTarget=False LODIn=(30.00) LODOut=(300.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_rf_dg.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(300.0) ShadowReceiver=False
+
+  }
+  
+/////////////////////////////////Left Rear Tire and Spindle//////////////////////////////////////////////////
+  Instance=LrTIRE
+  {
+    Moveable=True
+    MeshFile=z841_lrtire_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(5.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_lrtire_g_b.gmt CollTarget=False HATTarget=False LODIn=(5.00) LODOut=(30.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_lrtire_g_c.gmt CollTarget=False HATTarget=False LODIn=(30.00) LODOut=(300.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_lr_dg.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(300.0) ShadowReceiver=False
+
+  }
+
+/////////////////////////////////Right Rear Tire and Spindle//////////////////////////////////////////////////
+  Instance=rrTIRE
+  {
+    Moveable=True
+    MeshFile=z841_rrtire_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(5.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_rrtire_g_b.gmt CollTarget=False HATTarget=False LODIn=(5.00) LODOut=(30.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_rrtire_g_c.gmt CollTarget=False HATTarget=False LODIn=(30.00) LODOut=(300.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128) Reflect=True
+    MeshFile=z841_rr_dg.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(300.0) ShadowReceiver=False
+
+  }
+ 
+ Instance=ENGINE
+ {
+   Moveable=True
+   MeshFile=z841engine.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True Shadowcaster=False
+   
+ } 
+
+
+
+}

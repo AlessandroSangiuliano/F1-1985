@@ -1,0 +1,21 @@
+Pierluigi Martini
+{
+//Driver Info
+  Nationality=Italy
+  DateofBirth=23-04-1961
+  Starts=119
+  Poles=0
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=65.00
+  Reputation=50.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=54.00
+  Crash=4.00
+  Recovery=82.00
+  CompletedLaps=76.00
+  MinRacingSkill=54
+}

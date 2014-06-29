@@ -1,0 +1,166 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// This file specifices how to generate the vehicle graphics for the options car spinner only.
+// It is pointed to by one or more *.veh files.
+//
+// All information except tokens are copied directly.
+// Tokens have the format "<value>" where value is one of the following:
+//   ID        - this is replaced by the proper slot identification (000, 001, etc.), or
+//   1,2,3,etc - this is replaced by the first 1,2,3 characters of the
+//               vehicle filename
+//   VEHDIR    - this is replaced with the proper vehicles directory (e.g. E:\Data\season01\vehicles)
+//   TEAMDIR   - this is replaced with the proper team directory (e.g. season01\vehicles\williams)
+//   SPIN      - for the vehicle spinner in the options only
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//----------------------------------------
+
+SearchPath=<VEHDIR>
+SearchPath=<TEAMDIR>
+MASFile=F1_1985_f.mas
+MASFile=F1_1985\F1_1985_common.mas
+MASFile=F1_1985\F1_1985_tires.MAS
+MASFile=cmaps.mas
+
+ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+//----------------------------------------
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=f156carbody.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(Dynamic, Solid, 512, 512) Reflect=True
+
+  Actor=VEHICLE
+  
+<STARTUPGRADES>
+
+
+
+<STOPUPGRADES>
+
+
+    Instance=fwing      
+  {
+   Moveable=True
+  MeshFile=f156fwing.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(Dynamic, Solid, 512, 512) Reflect=True
+  } 
+
+
+  Instance=rwing      
+  {
+   Moveable=True
+  MeshFile=f156Rwing.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(True, Solid, 256, 256) Reflect=True
+  } 
+  
+  Instance=rf_tire      
+  {
+    Moveable=True
+    MeshFile=f156_RFTIRE_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+    Instance=lf_tire      
+  {
+    Moveable=True
+    MeshFile=f156_LFTIRE_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+ 
+    Instance=lr_tire      
+  {
+    Moveable=True
+    MeshFile=f156_LRTIRE_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+
+  Instance=rr_tire      
+  {
+    Moveable=True
+    MeshFile=f156_RRTIRE_g_a.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+ Instance=fl_susp      
+  {
+    Moveable=True
+    MeshFile=f156flsusp.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }  
+Instance=fr_susp      
+  {
+    Moveable=True
+    MeshFile=f156frsusp.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+Instance=rr_susp      
+  {
+    Moveable=True
+    MeshFile=f156rrsusp.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+Instance=rl_susp      
+  {
+    Moveable=True
+    MeshFile=f156rlsusp.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+
+ 
+ Instance=lf_brake     
+  {
+    Moveable=True
+    MeshFile=f156lfbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+Instance=rf_brake      
+  {
+    Moveable=True
+    MeshFile=f156rfbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+Instance=lr_brake      
+  {
+    Moveable=True
+    MeshFile=f156lrbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+Instance=rr_brake      
+  {
+    Moveable=True
+    MeshFile=f156rrbrake.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  } 
+
+
+
+
+
+ Instance=bukocso      
+  {
+   Moveable=True
+    MeshFile=f156bukocso.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+ } 
+
+
+
+    Instance=wheel      
+  {
+    Moveable=True
+    MeshFile=f156strwheel.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }
+
+Instance=kemeny      
+  {
+   Moveable=True
+   MeshFile=f156kemeny.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }
+Instance=engine      
+  {
+    Moveable=True
+    MeshFile=f156gearbox.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }
+Instance=driver      
+  {
+    Moveable=True
+    MeshFile=f156driver.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }
+Instance=helmet      
+  {
+    Moveable=True
+    MeshFile=<1234567>_helmet_max.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowCaster=(True, Solid, 256, 256) ShadowReceiver=True Reflect=True
+  }
+
+}
+

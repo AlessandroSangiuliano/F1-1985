@@ -1,0 +1,21 @@
+Gerhard Berger
+{
+//Driver Info
+  Nationality=Austria
+  DateofBirth=27-08-1959
+  Starts=210
+  Poles=12
+  Wins=10
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=60.00
+  Reputation=70.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=79.00
+  Crash=2.00
+  Recovery=82.55
+  CompletedLaps=91.00
+  MinRacingSkill=70
+}

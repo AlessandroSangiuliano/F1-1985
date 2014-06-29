@@ -1,0 +1,21 @@
+Huub Rothengatter
+{
+//Driver Info
+  Nationality=Hollandia
+  DateofBirth=08-10-1954
+  Starts=25
+  Poles=0
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=76.00
+  Reputation=53.00
+  Courtesy=53.00
+  Composure=70.00
+  Speed=53.00
+  Crash=2.00
+  Recovery=82.55
+  CompletedLaps=68.00
+  MinRacingSkill=54
+}

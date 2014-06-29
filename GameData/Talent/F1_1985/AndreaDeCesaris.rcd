@@ -1,0 +1,21 @@
+Andrea DeCesaris
+{
+//Driver Info
+  Nationality=Italy
+  DateofBirth=31-05-1959
+  Starts=208
+  Poles=1
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=71.00
+  Reputation=50.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=70.00
+  Crash=10.00
+  Recovery=82.00
+  CompletedLaps=68.00
+  MinRacingSkill=65.00
+ }

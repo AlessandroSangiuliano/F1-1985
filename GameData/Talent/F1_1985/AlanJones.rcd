@@ -1,0 +1,21 @@
+Alan jones
+{
+//Driver Info
+  Nationality=Australia
+  DateofBirth=02-11-1946
+  Starts=116
+  Poles=6
+  Wins=12
+  DriversChampionships=1
+
+//Driver Stats
+  Aggression=85.00
+  Reputation=80.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=65.00
+  Crash=2.00
+  Recovery=82.55
+  CompletedLaps=96.00
+  MinRacingSkill=60.00
+}

@@ -1,0 +1,4 @@
+Description="Lola THL01"
+
+Car painter="valiante"
+Helmet Painter"Fabrizio68"

@@ -1,0 +1,21 @@
+Philippe Alliot
+{
+//Driver Info
+  Nationality=Francia
+  DateofBirth=27-07-1954
+  Starts=109
+  Poles=0
+  Wins=0
+  DriversChampionships=0
+
+//Driver Stats
+  Aggression=77.00
+  Reputation=60.00
+  Courtesy=50.00
+  Composure=70.00
+  Speed=52.00
+  Crash=18.00
+  Recovery=82.55
+  CompletedLaps=76.00
+  MinRacingSkill=52
+}
